@@ -1,0 +1,20 @@
+{
+  "name": "express2tutorial",
+  "version": "1.0.0",
+  "description": "testing connecting to MSSQL Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Ben Reis",
+    "email": "test@testmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "msnodesqlv8": "^0.6.12",
+    "mssql": "^4.3.2"
+  }
+}
